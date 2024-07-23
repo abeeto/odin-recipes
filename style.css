@@ -1,0 +1,42 @@
+* {
+    font-family: "Tahoma", "Trebuchet MS", sans-serif;
+}
+.nav-links {
+    background-color: rgb(226, 226, 225);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5px 0;
+}
+.nav-links li {
+    padding: 25px 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+.nav-links li:hover {
+    background-color: rgb(194, 194, 194);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.child img {
+   max-width: 100%;
+}
+
+#preview-section {
+    flex: 0 1 50%;
+}
+#ingredients-section {
+    flex: 0 1 40%;
+}
+#directions-section {
+    flex: 0 1 100%;
+}
