@@ -3,6 +3,7 @@
 }
 body{
     margin:0px;
+    background-color: rgb(240, 240, 240);
 }
 .nav-links {
     background-color: rgb(226, 226, 225);
@@ -37,7 +38,7 @@ body{
     border-right: 2px dotted grey;
 }
 .child:last-child{
-    border: none;
+    border: none;   
 }
 .child img {
    width: auto;
